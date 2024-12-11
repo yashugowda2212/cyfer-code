@@ -1,0 +1,147 @@
+div p {
+       background-color: aqua;
+       color: rgba(35, 12, 240, 0.9)
+}
+body {
+    /*background-image: url(https://c.pxhere.com/photos/bf/09/motogp_racing_bike_speed_motorcycle_marquez_motor_racer-598763.jpg!d);
+    background-attachment: fixed;*/  
+}
+
+#border1{
+    border-color: red;
+    border-width: 10px;
+    
+}
+button{
+    border-color: red;
+    border-style: solid dotted dashed dotted; 
+}
+h1 p{
+border: 2px solid black;
+border-radius: 20px 40px 5px 1px;
+padding: 10px 20px 30px 5px;
+/*padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;*/
+
+margin: 15px;
+outline: 5px solid black;
+}
+div > {
+    background-color: green;
+}
+div + p {
+    background-color: yellow;
+}
+div ~ p {
+    background-color: blue;
+    }
+
+    .text{
+        width:20em;
+       text-align: justify; 
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dotted;
+    text-decoration: none;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    word-spacing: -5px;
+    /*white-space: nowrap;*/
+    text-overflow: 10px red;
+    }
+    h3{
+        /*font-size: 20px;
+        /*text-shadow: 10px 15px 10px rgb(20, 110, 56);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+       /* font-weight: bolder;
+        font-style: normal;
+        font-variant: small-caps;*/
+        font: 20px border small-caps normal;
+        font-family: "Sofia",sans-serif;
+
+    }
+
+
+    <style>
+        .text-container {
+            width: 300px; 
+            height: 60px; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; 
+            position: relative;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+    
+        .hidden-content {
+            display: none;
+            white-space: normal; 
+        }
+
+        .text-container.expanded {
+            height: auto; 
+            white-space: normal; 
+        }
+
+        .text-container.expanded .hidden-content {
+            display: inline; 
+        }
+
+        .text-container.expanded .read-more {
+            display: none; 
+        }
+    </style>
+
+    .custom-list {
+        list-style-image: url("image/360_F_597922554_NchpW6uj35RPOI4yeJeT4ElPxIHbHJlx.jpg");
+        margin: 20px;
+        padding: 10px;
+    }
+    .custom-list li {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+    }
+    
+    h1, h2 {
+        color: #333;
+    }
+    
+    ul {
+        margin: 20px 0;
+        padding: 0;
+        list-style-type: disc;
+    }
+    
+    .list-outside {
+        list-style-position: outside;
+        margin-left: 50px; 
+    }
+    
+    .list-inside {
+        list-style-position: inside;
+    }
+    
+    li {
+        margin-bottom: 15px;
+    }
+    
+    li p {
+        margin: 0;
+    }
